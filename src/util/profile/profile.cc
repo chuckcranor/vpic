@@ -24,7 +24,7 @@ update_profile( int dump ) {
   // divides num_steps
   if (sum == 0) { sum = 1.0; }
 
-  if( dump )
+  if( VERBOSE_MESSAGES != 0 && dump )
   {
     #if defined(VPIC_PRINT_MORE_DIGITS)
     log_printf( "\n" // 8901234567890123456 | xxx% x.xxxe+xx x.xe+xx x.xxxe+xx | xxx% x.xxxe+xx x.xe+xx x.xxxe+xx
